@@ -5,7 +5,7 @@ const app = express();
 
 //route handler with express
 app.get('/',(req, res) => {
-    res.send({ hi: 'there'});
+    res.send({ bye: 'buddy'});
 });
 
 //heroku has the ability to inject environemnt variables to Node's runtime
